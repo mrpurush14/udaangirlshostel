@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://udaanhostels.online/</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>always</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://udaanhostels.online/assets/aistudio/hostel_banner_bd5711c2.jpeg</image:loc>
+      <image:title>Udaan Hostels Patna - Om Enclave Atal Path Boring Road</image:title>
+      <image:caption>Premier Hostels in Patna for Girls and Students near Allen Career Institute</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://udaanhostels.online/assets/aistudio/hostel_logo_d4e3810a.jpeg</image:loc>
+      <image:title>Udaan Hostels Patna Official Logo</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://udaanhostels.online/assets/aistudio/hostel_menu_8102088b.jpeg</image:loc>
+      <image:title>Udaan Hostels 3-Time Daily Hygienic Mess Menu</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://udaanhostels.online/#rooms</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://udaanhostels.online/#branches</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://udaanhostels.online/#patna-hostel-guide</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://udaanhostels.online/#food-menu</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://udaanhostels.online/#virtual-tour</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://udaanhostels.online/#amenities</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://udaanhostels.online/#faq</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://udaanhostels.online/#contact</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+</urlset>

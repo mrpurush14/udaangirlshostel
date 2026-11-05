@@ -1,0 +1,6 @@
+{
+  "name": "Udaan Hostels Patna - Best Hostels in Patna",
+  "description": "Udaan Hostels Patna (udaanhostels.online) - Safe, premium, and homely hostels in Patna across Boring Road & North SK Puri with modern rooms, 3 fresh meals, Wi-Fi, 24x7 security, and Udaan boys hostels guidance.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
