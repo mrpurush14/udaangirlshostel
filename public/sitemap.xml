@@ -22,9 +22,21 @@
   </url>
   <url>
     <loc>https://udaanhostels.online/#rooms</loc>
-    <lastmod>2026-11-05</lastmod>
+    <lastmod>2026-11-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://udaanhostels.online/assets/aistudio/single_rrom_2_7f4ec25e.jpeg</image:loc>
+      <image:title>Udaan Girls Hostel Single Occupancy Room</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://udaanhostels.online/assets/aistudio/double_room_ceb16be5.jpeg</image:loc>
+      <image:title>Udaan Girls Hostel Double Sharing Bedroom</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://udaanhostels.online/assets/aistudio/triple_room_7d13167d.jpeg</image:loc>
+      <image:title>Udaan Girls Hostel Triple Sharing Bedroom</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://udaanhostels.online/#branches</loc>

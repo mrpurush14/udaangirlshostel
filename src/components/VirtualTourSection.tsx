@@ -45,80 +45,131 @@ interface TourScene {
 
 const TOUR_SCENES: TourScene[] = [
   {
-    id: 'double-sharing-room',
-    title: 'Double Sharing Bedroom (Om Enclave)',
-    subtitle: 'Spacious, Airy & Fully Furnished',
+    id: 'single-deluxe-room',
+    title: 'Single Occupancy Room (Actual Room View)',
+    subtitle: 'Absolute Privacy & Zero Distractions',
     category: 'bedroom',
-    panoramaImage: 'https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?auto=format&fit=crop&w=2400&q=85',
-    thumbnail: 'https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?auto=format&fit=crop&w=300&q=80',
-    description: 'Our most popular room type featuring two separate single box beds, individual wooden cupboards, and dedicated study workstations.',
+    panoramaImage: '/assets/aistudio/single_rrom_2_7f4ec25e.jpeg',
+    thumbnail: '/assets/aistudio/single_rrom_2_7f4ec25e.jpeg',
+    description: 'Actual photo of our single room with individual partition compartments, comfortable bed, ceiling fan, and tiled floor for maximum study privacy.',
     hotspots: [
       {
-        id: 'hs-bed',
-        xPercent: 28,
+        id: 'hs-cubicle-door',
+        xPercent: 18,
+        yPercent: 48,
+        title: 'Private Partitioned Enclosure',
+        description: 'Independent partitioned cabin with frosted glass doors providing complete privacy from roommates.',
+        tag: 'Privacy'
+      },
+      {
+        id: 'hs-bed-single',
+        xPercent: 50,
         yPercent: 62,
-        title: 'Box Bed with Orthopedic Mattress',
-        description: 'Single wooden box bed with ample under-bed storage, 6" orthopedic mattress, fresh linen, and side charging socket.',
+        title: 'Single Bed with Clean Mattress',
+        description: 'Solid wooden single bed with comfortable mattress, fresh pillows, and under-bed storage.',
         tag: 'Sleeping Comfort'
       },
       {
-        id: 'hs-study',
-        xPercent: 62,
-        yPercent: 54,
-        title: 'Dedicated Study Workstation',
-        description: 'Individual wooden desk, ergonomic back-support chair, overhead reading lamp, and multi-plug power extension for laptop/tablet.',
-        tag: 'Study Setup'
-      },
-      {
-        id: 'hs-wardrobe',
-        xPercent: 84,
-        yPercent: 45,
-        title: 'Individual Locked Cupboard',
-        description: 'Personal 3-shelf wooden wardrobe with safety locker, hanger rod, and private lock & key.',
-        tag: 'Storage'
-      },
-      {
-        id: 'hs-bath',
-        xPercent: 12,
-        yPercent: 48,
-        title: 'Attached Sanitized Washroom',
-        description: 'Modern western toilet, instant hot geyser, shower, and daily professional sanitization.',
-        tag: 'Hygiene'
+        id: 'hs-fan-single',
+        xPercent: 48,
+        yPercent: 15,
+        title: 'Ceiling Fan & Cross Ventilation',
+        description: 'High-speed ceiling fan and wide windows offering cool airflow throughout the room.',
+        tag: 'Airflow'
       }
     ]
   },
   {
-    id: 'single-deluxe-room',
-    title: 'Single Occupancy Deluxe Room',
-    subtitle: 'Absolute Privacy & Zero Distractions',
+    id: 'double-sharing-room',
+    title: 'Double Sharing Bedroom (Actual Room View)',
+    subtitle: 'Spacious, Airy & Fully Furnished',
     category: 'bedroom',
-    panoramaImage: 'https://images.unsplash.com/photo-1598928506311-c55ded91a20c?auto=format&fit=crop&w=2400&q=85',
-    thumbnail: 'https://images.unsplash.com/photo-1598928506311-c55ded91a20c?auto=format&fit=crop&w=300&q=80',
-    description: 'Designed for serious exam aspirants (NEET / JEE / UPSC) wanting dedicated personal space with attached bathroom and private study zone.',
+    panoramaImage: '/assets/aistudio/double_room_ceb16be5.jpeg',
+    thumbnail: '/assets/aistudio/double_room_ceb16be5.jpeg',
+    description: 'Actual photo of our double sharing room featuring two separate single box beds, dedicated study workstations, wooden wardrobe, and designer accent wall.',
     hotspots: [
       {
-        id: 'hs-desk-single',
-        xPercent: 45,
-        yPercent: 52,
-        title: 'Executive Study Desk & Bookshelf',
-        description: 'Wide study table with integrated book rack, task lighting, and uninterrupted high-speed Wi-Fi router coverage.',
-        tag: 'Focus Zone'
+        id: 'hs-bed-1',
+        xPercent: 22,
+        yPercent: 78,
+        title: 'Independent Wooden Single Bed',
+        description: 'Single wooden bed with comfortable floral mattress and fresh clean pillows.',
+        tag: 'Sleeping Comfort'
       },
       {
-        id: 'hs-bed-single',
-        xPercent: 78,
-        yPercent: 65,
-        title: 'Comfort Bed with Storage',
-        description: 'Solid wooden bed with clean cotton bedsheet, pillow, and hydraulic lift-up storage space.',
+        id: 'hs-bed-2',
+        xPercent: 72,
+        yPercent: 62,
+        title: 'Second Single Bed',
+        description: 'Comfortably spaced single bed placed against the vibrant designer wallpaper wall.',
+        tag: 'Space'
+      },
+      {
+        id: 'hs-study-table',
+        xPercent: 12,
+        yPercent: 58,
+        title: 'Study Workstation & Chair',
+        description: 'Study table with ergonomic back-support chair and bright ambient lighting for focused revision.',
+        tag: 'Study Setup'
+      },
+      {
+        id: 'hs-wardrobe-double',
+        xPercent: 10,
+        yPercent: 42,
+        title: 'Full-Height Wooden Wardrobe',
+        description: 'Large wooden double-door wardrobe with individual locks for secure clothing and book storage.',
+        tag: 'Storage'
+      }
+    ]
+  },
+  {
+    id: 'triple-sharing-room',
+    title: 'Triple Sharing Bedroom (Actual Room View)',
+    subtitle: 'Extra-Large Room with 3 Separate Beds',
+    category: 'bedroom',
+    panoramaImage: '/assets/aistudio/triple_room_7d13167d.jpeg',
+    thumbnail: '/assets/aistudio/triple_room_7d13167d.jpeg',
+    description: 'Actual photo of our large triple sharing room with 3 individual wooden beds, shared study table with multiple chairs, large wardrobe, and dual ceiling fans.',
+    hotspots: [
+      {
+        id: 'hs-bed-triple-1',
+        xPercent: 18,
+        yPercent: 68,
+        title: 'Bed #1 (Window Side)',
+        description: 'Comfortable single wooden bed with floral bedding and ample walking aisle.',
         tag: 'Comfort'
       },
       {
-        id: 'hs-window',
-        xPercent: 20,
+        id: 'hs-bed-triple-2',
+        xPercent: 68,
+        yPercent: 58,
+        title: 'Bed #2 (Center)',
+        description: 'Positioned against the accent wallpaper wall with individual charging outlet nearby.',
+        tag: 'Sleeping Comfort'
+      },
+      {
+        id: 'hs-bed-triple-3',
+        xPercent: 82,
+        yPercent: 78,
+        title: 'Bed #3 (Front)',
+        description: 'Solid wooden frame bed with clean ortho mattress and pillow.',
+        tag: 'Sleeping Comfort'
+      },
+      {
+        id: 'hs-study-cluster',
+        xPercent: 35,
+        yPercent: 50,
+        title: 'Shared Study Workstation & Chairs',
+        description: 'Wide wooden table with multiple cushioned chairs for group and independent study sessions.',
+        tag: 'Study Setup'
+      },
+      {
+        id: 'hs-wardrobe-triple',
+        xPercent: 14,
         yPercent: 35,
-        title: 'Large Sunlight Window & Balcony',
-        description: 'Wide sliding window bringing natural sunlight, refreshing cross ventilation, and blackout privacy curtains.',
-        tag: 'Ventilation'
+        title: 'Large Wooden Wardrobe Locker',
+        description: 'Spacious wooden storage cabinet with individual locker keys for each resident.',
+        tag: 'Storage'
       }
     ]
   },

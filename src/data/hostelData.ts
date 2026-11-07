@@ -160,7 +160,7 @@ export const ROOMS: RoomDetail[] = [
     tag: 'Premium Privacy',
     startingPrice: '₹8,000',
     priceNote: 'per month (Includes 3 Meals, Wi-Fi & Maintenance)',
-    image: 'https://images.unsplash.com/photo-1598928506311-c55ded91a20c?auto=format&fit=crop&w=800&q=80',
+    image: '/assets/aistudio/single_rrom_2_7f4ec25e.jpeg',
     description: 'Ideal for serious aspirants who need absolute peace and privacy for competitive exam preparations (NEET, JEE, UPSC, Banking) or working professionals.',
     features: [
       'Dedicated personal space with zero distractions',
@@ -186,7 +186,7 @@ export const ROOMS: RoomDetail[] = [
     tag: 'Most Popular',
     startingPrice: '₹7,500',
     priceNote: 'per month per person (Includes 3 Meals & Wi-Fi)',
-    image: 'https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?auto=format&fit=crop&w=800&q=80',
+    image: '/assets/aistudio/double_room_ceb16be5.jpeg',
     description: 'Our most sought-after room category! Spacious room balanced with mutual companionship and personal study desk for both roommates.',
     features: [
       'Spacious layout with generous walking space',
@@ -212,7 +212,7 @@ export const ROOMS: RoomDetail[] = [
     tag: 'Budget & Friendly',
     startingPrice: '₹6,500',
     priceNote: 'per month per person (Includes 3 Meals & Wi-Fi)',
-    image: 'https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=800&q=80',
+    image: '/assets/aistudio/triple_room_7d13167d.jpeg',
     description: 'Vibrant, economical, and comfortable setup for students who enjoy group discussions, peer motivation, and affordable luxury in Boring Road.',
     features: [
       'Very large airy room with ample natural light',
@@ -271,15 +271,22 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     id: 'g2',
     title: 'Spacious Double Sharing Bedroom',
     category: 'rooms',
-    image: 'https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?auto=format&fit=crop&w=1000&q=80',
-    caption: 'Neat double sharing room with fresh linen, wooden cupboards, natural sunlight, and wide ventilation.'
+    image: '/assets/aistudio/double_room_ceb16be5.jpeg',
+    caption: 'Actual photo of neat double sharing room with fresh linen, study desks, wooden wardrobe, ceiling fans, and designer wallpaper.'
   },
   {
     id: 'g3',
     title: 'Cozy Single Occupancy Deluxe Room',
     category: 'rooms',
-    image: 'https://images.unsplash.com/photo-1598928506311-c55ded91a20c?auto=format&fit=crop&w=1000&q=80',
-    caption: 'Private single room with dedicated study table, personal wardrobe, and peaceful study atmosphere.'
+    image: '/assets/aistudio/single_rrom_2_7f4ec25e.jpeg',
+    caption: 'Actual photo of private single cubicle room offering peaceful study privacy, dedicated bed, and clean tiled flooring.'
+  },
+  {
+    id: 'g-triple',
+    title: 'Airy Triple Sharing Bedroom',
+    category: 'rooms',
+    image: '/assets/aistudio/triple_room_7d13167d.jpeg',
+    caption: 'Actual photo of extra-spacious triple sharing room with individual wooden beds, study workstations, and large wooden wardrobe.'
   },
   {
     id: 'g4',
